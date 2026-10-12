@@ -1,0 +1,21 @@
+sources:
+  - name: arXiv AI
+    type: arxiv
+    query: (cat:cs.AI OR cat:cs.LG OR cat:quant-ph)
+    max_results: 20
+  - name: arXiv Mathematics
+    type: arxiv
+    query: (cat:math.LO OR cat:math.NT OR cat:math.GT)
+    max_results: 12
+  - name: NASA Breaking News
+    type: rss
+    url: https://www.nasa.gov/rss/dyn/breaking_news.rss
+    tags: [space, physics]
+  - name: MIT Technology Review
+    type: rss
+    url: https://www.technologyreview.com/feed/
+    tags: [ai, technology]
+  - name: GitHub Trending AI
+    type: github
+    query: topic:artificial-intelligence stars:>100
+    max_results: 10

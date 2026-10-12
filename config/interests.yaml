@@ -1,0 +1,37 @@
+categories:
+  quantum_physics:
+    weight: 5
+    keywords: [quantum, qubit, entanglement, decoherence, "quantum gravity", quantum computing, superconducting]
+  fundamental_physics:
+    weight: 5
+    keywords: [string theory, holographic, ads/cft, black hole, spacetime, extra dimension, wormhole, causality]
+  space_cosmology:
+    weight: 4
+    keywords: [cosmology, astrophysics, exoplanet, nasa, esa, gravitational wave, mars, telescope, rocket]
+  mathematics:
+    weight: 4
+    keywords: [mathematics, topology, number theory, theorem, proof, geometry, algebra, category theory]
+  ai_ml:
+    weight: 5
+    keywords: [ai, artificial intelligence, llm, machine learning, deep learning, transformer, agent, rag, reasoning model]
+  software_security:
+    weight: 3
+    keywords: [python, software, github, developer, distributed systems, cybersecurity, cryptography, post-quantum, vulnerability]
+  robotics_engineering:
+    weight: 4
+    keywords: [robot, robotics, humanoid, ros, autonomous, embedded, sensor, materials, prosthesis]
+  neuro_bio:
+    weight: 3
+    keywords: [neuroscience, brain-computer, bioinformatics, genomics, protein, synthetic biology, medical ai]
+  startups_central_asia:
+    weight: 6
+    keywords: [kazakhstan, astana hub, aifc, qazinnovations, central asia, startup, venture, grant, accelerator]
+  education_career:
+    weight: 3
+    keywords: [scholarship, internship, fellowship, phd, research assistant, summer school, opportunity]
+  energy_technology:
+    weight: 3
+    keywords: [fusion, nuclear, battery, hydrogen, photonics, semiconductor, neuromorphic, energy]
+ranking:
+  source_authority: {arxiv: 3, crossref: 3, github: 2, rss: 1}
+  freshness_hours: 48
